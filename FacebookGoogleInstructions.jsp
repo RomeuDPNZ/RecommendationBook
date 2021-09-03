@@ -1,0 +1,1 @@
+<fieldset><span class="Nickname"><a href="Login.jsp" target="_blank">You Can Create Your Recommendation Book Profile With One Click Using Facebook and Google Plus by Going to the Login Page.</a></span></fieldset>

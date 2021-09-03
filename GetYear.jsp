@@ -1,0 +1,1 @@
+<% out.print(String.valueOf(java.util.Calendar.getInstance().get(java.util.Calendar.YEAR))); %>
