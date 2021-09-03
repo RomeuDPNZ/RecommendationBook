@@ -1,0 +1,1565 @@
+
+/* ****************************** All ****************************** */
+
+* {
+	font-family: verdana, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+html, body {
+	color: gray;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
+	/*
+	background-color: #FFFFCC;
+	background-color: LightYellow;
+	background-color: #E6E6E6;
+	background-color: LightGray;
+	background-color: Ivory;
+	*/
+	/* background-color: Snow; */
+
+	background-color: LightGoldenRodYellow;
+	/* background-color: NavajoWhite; */
+	/* background-color: Moccasin; */
+	/* background-color: PaleGoldenRod; */
+	/* background-color: PapayaWhip; */
+	/* background-color: Wheat; */
+
+	/* Utilize text-align: center caso queira que a página tenha width fixo */
+	/* text-align: center; */
+}
+
+.OneUp {
+	position: absolute;
+	color: green;
+	font-size: 80px;
+	bottom: 200px;
+}
+
+.OneDown {
+	position: absolute;
+	color: red;
+	font-size: 80px;
+	bottom: 200px;
+}
+
+img {
+	border: none;
+	outline: none;
+}
+
+a {
+	color: GoldenRod;
+	text-decoration:none;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+a.pages {
+	margin: 2px;
+	padding: 3px;
+	color: blue;
+	text-decoration:none;
+	border: 1px solid gray;
+}
+
+a.delete {
+	color: red;
+}
+
+table {
+	width: 100%;
+	border-spacing: 5px;
+}
+
+td {
+	padding: 5px;
+	text-align: center;
+	align-items: center;
+	/* vertical-align: center; */
+}
+
+td.tdLeft {
+	padding: 15px;
+	text-align: left;
+	align-items: center;
+	/* vertical-align: center; */
+}
+
+td.tdRight {
+	padding: 15px;
+	text-align: right;
+	align-items: center;
+	/* vertical-align: center; */
+}
+
+div.pages {
+	margin: 0.5em;
+	padding: 1em;
+	border: 1px solid gray;
+}
+
+div.Geral {
+	/* Utilize margin: 0px auto; e width caso queira que a página tenha width fixo */
+	/* margin: 0px auto;
+	width: 1260px; */ /* 1260 */
+	height: 100%;
+}
+
+div.Cabecalho {
+	margin: 0;
+	padding: 0.5em; /* padding: 1em; Para fonte 12px */
+	/* min-height: 8em; */ /* Para fonte 12px */
+	min-height: 5.75em;
+	background-color: lightyellow;
+}
+
+div.Mini {
+	/* min-height: 4.20em; */ /* Para fonte 12px */
+	min-height: 3.20em;
+	border-bottom: 1px solid gray;
+	background-color: lightyellow;
+}
+
+input.InputMini[type="text"] {
+	outline-color: SteelBlue;
+	width: 80%; 
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+div.ConteudoCabecalhoE {
+	text-align: left;
+	float: left;
+	/* width: 205px; */ /* 20% */
+}
+
+div.ConteudoCabecalhoC {
+	text-align: left;
+	float: left;
+	/* width: 390px; */ /* 60% */
+	padding-top: 2em; /* 3em */
+}
+
+div.ConteudoCabecalhoD {
+	text-align: right;
+	float: right;
+	/* width: 200px; */ /* 20% */
+}
+
+h1.slogan {
+	padding-left: 1em;
+	font-size: 30px;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1.Action {
+	font-size: 35px;
+	color: green;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+span.Action {
+	margin: 0px;
+	padding: 1em;
+}
+
+div.Menu {
+	text-align: left;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	overflow: hidden;
+}
+
+ul.Menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 1em;
+}
+
+li.Menu {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+a.Menu {
+	padding: 1em;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.Menu:link {
+	color: white;
+	text-decoration: none;
+}
+
+a.Menu:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.Menu:hover {
+	color: gray;
+	text-decoration: none;
+	background-color: white;
+}
+
+ul.MenuMobile {
+	display: table;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+li.MenuMobile {
+	display: table-row;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+a.MenuMobile {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 1em;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.MenuMobile:link {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+a.MenuMobile:visited {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+a.MenuMobile:hover {
+	display: block;
+	color: gray;
+	text-decoration: none;
+	background-color: white;
+}
+
+div.Publicidade {
+	clear: both;
+	text-align: center;
+	margin: 1em;
+	padding: 5em;
+	border: 1px solid gray;
+}
+
+div.Search {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.Stats {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.ShowSearch {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 45em;
+	overflow: auto;
+}
+
+div.AppendSearch {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	height: 45em;
+	overflow: auto;
+}
+
+div.DivSearchResult {
+	text-align: center;
+	margin: 0.5em;
+	padding: 0.5em;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+input.Search {
+	padding: 0.5em;
+	width: 450px;
+}
+
+input.SearchMini {
+	padding: 0.5em;
+}
+
+input.SearchButton {
+	padding: 0.5em;
+} 
+
+div.Corpo {
+	clear: both;
+	/* min-height: 70%; */
+}
+
+div.LeftColumn {
+	float: left;
+	width: 25%;
+}
+
+div.CenterColumn {
+
+}
+
+div.RightColumn {
+	float: left;
+	width: 25%; /* 25% */
+}
+
+fieldset.CenterColumn {
+	border: 1px solid gray;
+}
+
+fieldset.LeftColumn {
+	border: 1px solid gray;
+}
+
+fieldset.RightColumn {
+	border: 1px solid gray;
+}
+
+input, select, textarea {
+	outline: none;
+	padding: 0.75em;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 2px solid GoldenRod;
+	background-color: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+fieldset {
+	text-align: center;
+	margin: 1em;
+	padding: 0.5em;
+	border: 1px solid gray;
+	background-color: Ivory;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px lightgray;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+legend {
+	font-size: 20px;
+	margin: 5px;
+	padding: 0.20em;
+	color: gray;
+	border: 1px solid gray;
+	background-color: lightyellow;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+a.SeeAll {
+	font-size: 20px;
+}
+
+a.CheckAvailability {
+	color: gray;
+	margin: 0.20em;
+	padding: 0.20em;
+	border: 1px solid gray;
+	background-color: white;
+}
+
+div.BeforeShowAvailability {
+	float: left;
+	margin: 0.20em;
+	padding: 0.20em;
+}
+
+div.ShowAvailability {
+	float: left;
+	color: gray;
+	margin: 0.20em;
+	padding: 0.20em;
+}
+
+div.ButtonRecommend {	
+	padding: 1em;
+}
+
+div.ButtonRecommendOutro {	
+	padding: 1em;
+}
+
+div.ButtonRecommend~div.ButtonRecommend {
+	padding-top: 0px;
+}
+
+div.ButtonRecommendOutro~div.ButtonRecommendOutro {
+	padding-top: 0px;
+}
+
+div.ButtonSubscribe {
+	padding: 1em;
+	padding-top: 0em;
+}
+
+div.ButtonAddStuff {
+	padding: 1em;
+	padding-top: 0em;
+}
+
+div.Comments {
+	text-align: left;
+}
+
+div.Controls {
+	clear: both;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+div.Conteudo {
+	margin: 5px;
+	border: 1px solid gray;
+}
+
+div.Rodape {
+	text-align: center;
+	min-height: 5em;
+	clear: both;
+	padding: 5em;
+	border-top: 1px solid gray;
+	background-color: lightyellow;
+}
+
+span.Nickname {
+	color: GoldenRod;
+}
+
+span.red {
+	color: red;
+}
+
+span.error {
+	color: red;
+	font-weight: bold;
+}
+
+span.green {
+	color: green;
+	font-weight: bold;
+}
+
+span.CantBeChanged {
+	color: DarkGoldenRod;
+	font-weight: bold;
+}
+
+span.RecommendationBook {
+	color: GoldenRod;
+	font-weight: bold;
+}
+
+span.Bold {
+	font-weight: bold;
+}
+
+span.ImageDescription {
+	font-size: 10px;
+}
+
+span.LoadMore {
+	font-size: 22px;
+	color: GoldenRod;
+	font-weight: bold;
+}
+
+td.LightGrayBorder {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+table.listras tr:nth-child(even) {
+	background-color: #EBEBE6;
+}
+
+img.AdHorizontalBig {
+	width: 728px;
+}
+
+img.AdHorizontalSmall {
+	width: 468px;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+figcaption {
+	font-size: 10px;
+}
+
+input.AddStuff {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	display: block;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid SteelBlue;
+	background-color: LightBlue;
+	color: SteelBlue;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputRecommend, button.ButtonRecommend {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	min-width: 170px;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid GoldenRod;
+	background-color: yellow;
+	color: GoldenRod;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputRecommended, button.ButtonRecommended {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	min-width: 170px;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid darkgreen;
+	background-color: lightgreen;
+	color: darkgreen;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputUnRecommend, button.ButtonUnRecommend {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	min-width: 170px;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid darkred;
+	background-color: red;
+	color: darkred;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputRecommendOutro, button.ButtonRecommendOutro {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 170px;
+	padding: 0.25em;
+	border: 3px solid GoldenRod;
+	background-color: yellow;
+	color: GoldenRod;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputRecommendedOutro, button.ButtonRecommendedOutro {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 170px;
+	padding: 0.25em;
+	border: 3px solid darkgreen;
+	background-color: lightgreen;
+	color: darkgreen;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputUnRecommendOutro, button.ButtonUnRecommendOutro {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 170px;
+	padding: 0.25em;
+	border: 3px solid darkred;
+	background-color: red;
+	color: darkred;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+td.InLine > div.ButtonRecommendedOutro, td.InLine > div.ButtonRecommendOutro, td.InLine > div.ButtonRecommended, td.InLine > div.ButtonRecommend {
+	clear: both;
+	display: inline;
+}
+
+dd.InLine > div.ButtonRecommendedOutro, dd.InLine > div.ButtonRecommendOutro, dd.InLine > div.ButtonRecommended, dd.InLine > div.ButtonRecommend {
+	clear: both;
+	display: inline;
+}
+
+input.InputSubscribe, button.ButtonSubscribe {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid GoldenRod;
+	background-color: yellow;
+	color: GoldenRod;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputSubscribed, button.ButtonSubscribed {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid darkgreen;
+	background-color: lightgreen;
+	color: darkgreen;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputUnSubscribe, button.ButtonUnSubscribe {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-khtml-border-radius: 0.25em;
+	width: 100%;
+	padding: 0.25em;
+	border: 3px solid darkred;
+	background-color: red;
+	color: darkred;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+dl.user {
+	/* width: 160px; */ /* Estava 280 */
+	word-wrap: break-word;
+	/* border: 1px solid red; */
+}
+
+dt.user {
+	text-align: left;
+	margin-left: 1em;
+	color: black;
+}
+
+dd.user {
+	padding-top: 2px;
+	text-align: left;
+	margin-left: 2em;
+	color: black;
+	font-weight: bold;
+}
+
+/* Seleciona todo dt.user que vem imediatamente após um dd.user */
+dd.user~dt.user {
+	padding-top: 2.5em;
+}
+
+dl.Comment {
+	
+}
+
+dt.Comment {
+	text-align: left;
+	margin-left: 1em;
+}
+
+dd.Comment {
+	padding-bottom: 2em;
+	text-align: left;
+	margin-left: 2em;
+	color: blue;
+}
+
+div.multiselect {
+	text-align: left;
+	width: 20em;
+	height: 8em;
+	border: 1px solid gray;
+	overflow: auto;
+}
+ 
+div.multiselect, label {
+	display: block;
+}
+
+.multiselect-on {
+	color: white;
+	background-color: GoldenRod;
+}
+
+div.MultipleSelectExtended {
+	width: 30em;
+	height: 20em;
+	border: 1px solid gray;
+	overflow: auto;
+}
+
+div.MultipleSelectExtendedOutro {
+	margin-left: 2em;
+	margin-bottom: 1em;
+	width: 26em;
+	height: 8em;
+	overflow: auto;
+}
+
+div.MultipleSelectDate {
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+div.MultipleSelectExtended, label {
+	display: block;
+}
+
+.MultipleSelectExtendedOutro-on {
+	color: white;
+	/* background-color: DodgerBlue; */
+	background-color: SteelBlue;
+	/* background-color: RoyalBlue; */
+}
+
+div.Spinner {
+/*
+	position: absolute;
+	text-align: center;
+*/
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+}
+
+p.MessageToRecommender {
+	padding: 5em;
+	padding-top: 2em;
+	padding-bottom: 4em;
+	color: SteelBlue;
+	font-size: 30px;
+}
+
+label.error {
+	float: right;
+	color: red;
+	font-weight: bold;
+	padding: 0.75em;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-khtml-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 2px solid red;
+	background-color: white;
+}
+
+/* ****************************** index ****************************** */
+
+div.Column {
+	float: left;
+	width: 33%;
+}
+
+div.Books {
+	float: left;
+	width: 33%;
+}
+
+div.Movies {
+	float: left;
+	width: 33%;
+}
+
+div.Music {
+	float: left;
+	width: 33%;
+}
+
+/* ****************************** Recommender ****************************** */
+
+div.RecommenderLeftColumn {
+	float: left;
+	width: 30%;
+}
+
+div.RecommenderLeftColumnOutro {
+	float: left;
+	width: 70%;
+}
+
+div.RecommenderCenterColumn {
+	float: left;
+	width: 40%;
+}
+
+div.RecommenderRightColumn {
+	float: left;
+	width: 30%;
+}
+
+fieldset.RecommenderRightColumnInformation {
+	margin-left: 0;
+}
+
+img.RecommenderImage {
+
+}
+
+/* ****************************** Work With Table ****************************** */
+
+div.WorkWithLeftColumn {
+	float: left;
+	width: 50%;
+}
+
+div.WorkWithLeftColumn fieldset {
+	margin-right: 0.5em;
+}
+
+div.WorkWithCenterColumn {
+	float: left;
+	width: 35%;
+}
+
+div.WorkWithRightColumn {
+	float: left;
+	width: 50%;
+}
+
+div.WorkWithRightColumn fieldset {
+	margin-left: 0.5em;
+}
+
+/* ****************************** Persons and Groups ****************************** */
+
+button.TabMenu {
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding: 0.5em;
+	border: 1px solid gray;
+	border-bottom: none;
+	background-color: white;
+}
+
+ul.TabMenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 8px; /* Estava 0.75em */
+}
+
+ul.TabMenuWidth {
+	width: 800px;
+}
+
+li.TabMenu {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#tabs .ui-state-default a {
+	outline: 0;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 1px solid gray;
+/*
+	border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+*/
+	border-bottom: none;
+	background-color: white;
+	text-decoration: none;
+}
+
+#tabs .ui-state-active a {
+	outline: 0;
+	color: GoldenRod;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	padding: 0.5em;
+	border: 1px solid gray;
+/*
+	border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+*/
+	border-bottom: none;
+	background-color: white;
+	text-decoration: none;
+}
+
+div.Scrollbar {
+	margin: 0px auto;
+	width: 600px;
+	padding: 1px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+#tabs ::-webkit-scrollbar {
+	height: 10px;
+}
+ 
+#tabs ::-webkit-scrollbar-track {
+	border: none;
+	background-color: lightgray;
+}
+ 
+#tabs ::-webkit-scrollbar-thumb {
+	border: 1px solid gray;
+	background-color: gray;
+}
+
+select.SelectTab {
+	outline: 0;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+	font-size: 172%;
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 1px;
+	border-style: none;
+	border: 1px solid gray;
+	/* -webkit-appearance: none; */
+}
+
+/*
+option[selected] {
+	color: GoldenRod;
+}
+*/
+
+#Accordion h3 {
+	outline: 0;
+	color: gray;
+	font-family: verdana, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 0.75em;
+	border: 1px solid gray;
+	background-color: lightgray;
+}
+
+h3.HToggle {
+	outline: 0;
+	color: gray;
+	font-family: verdana, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 0.75em;
+	border: 1px solid gray;
+}
+
+h3.HToggleUp {
+	background: lightgray url('./img/static/toggleUp.png') no-repeat 98% center;
+}
+
+h3.HToggleDown {
+	background: lightgray url('./img/static/toggleDown.png') no-repeat 98% center;
+}
+
+h3.HToggleUp:before {
+	content: "Hide ";
+}
+
+h3.HToggleDown:before {
+	content: "Show ";
+}
+
+div.Controls {
+	margin: 0;
+	padding: 0;
+}
+
+div.Things {
+	text-align: center;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	margin-top: 0;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 0.5em;
+	padding-top: 0;
+	border: 1px solid gray;
+}
+
+fieldset.Person {
+	margin-top: 0;
+}
+
+fieldset.PersonGroupInformation {
+	margin-left: 0;
+}
+
+div.PersonGroupImage {
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+img.PersonGroupImage {
+	width: 100%; /* 265 */
+}
+
+div.AboutPerson {
+	word-wrap: break-word;
+}
+
+/* ****************************** Recommended ****************************** */
+
+div.RecommendedLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.RecommendedRightColumn {
+	float: left;
+	width: 66%;
+}
+
+div.RecommendedLeftRightColumn {
+	float: left;
+	width: 50%;
+}
+
+div.RecommendedRightRightColumn {
+	float: left;
+	width: 50%;
+}
+
+div.CenterColumn {
+	clear: both;
+}
+
+fieldset.RecommendedLeftColumnFieldset {
+	margin-right: 0.5em;
+}
+
+fieldset.RecommendedLeftRightColumnFieldset {
+	/* min-height: 460px; */
+	margin-right: 0.5em;
+}
+
+fieldset.RecommendedRightRightColumnFieldset {
+	/* min-height: 460px; */
+	margin-right: 0.5em;
+}
+
+fieldset.RecommendedCenterColumnFieldset {
+	margin-right: 0.5em;
+}
+
+
+/* ****************************** addMovies, addPerson ****************************** */
+
+div.MovieCrew {
+	width: 400px;
+	padding: 1em;
+	border: 1px solid lightgray;
+}
+
+div.MovieCrewPerson {
+	padding: 1em;
+	border: 1px solid lightgray;
+	background-color: Moccasin;
+	/* background: Moccasin url('./img/static/Delete.png') no-repeat 98% center; */
+}
+
+div.MovieCrewPerson~div.MovieCrewPerson {
+	margin-top: 1em;
+}
+
+span.Instruction {
+	font-family: verdana, sans-serif;
+	font-size: 9px;
+	color: gray;
+	padding-left: 1em;
+}
+
+div.MovieCrewPersonJobs {
+	padding-left: 1em;
+}
+
+div.GroupOfJobs {
+	width: 80%;
+	margin: 2px;
+	margin-top: 1em;
+	padding: 2px;
+	border: 1px solid lightgray;
+}
+
+img.ImageDeleteMovieCrewPerson {
+	float: right;
+	top: 5px;
+	right: 5px;
+}
+
+img.ImageUpdateMovieCrewPerson {
+	float: right;
+	top: 5px;
+	right: 20px;
+}
+
+div.SelectInputCheckboxes {
+	position: absolute;
+	text-align: center;
+	padding: 1em;
+	border: 1px solid lightgray;
+	/* background-color: PapayaWhip; */
+	background-color: NavajoWhite;
+	/* background-color: Moccasin; */
+	/* background-color: PaleGoldenRod; */
+	/* background-color: Wheat; */
+}
+
+div.SelectOptions {
+	position: absolute;
+	text-align: center;
+	padding: 1em;
+	border: 1px solid lightgray;
+	background-color: NavajoWhite;
+}
+
+div.MovieControls {
+	/* margin: 1em;
+	clear: both; */
+}
+
+/* ****************************** addBands ****************************** */
+
+div.Musicians {
+	width: 400px;
+	padding: 1em;
+	border: 1px solid lightgray;
+
+}
+
+div.Musician {
+	padding: 1em;
+	border: 1px solid lightgray;
+	background-color: Moccasin;
+	/* background: Moccasin url('./img/static/Delete.png') no-repeat 98% center; */
+}
+
+div.Musician~div.Musician {
+	margin-top: 1em;
+}
+
+span.Instruction {
+	font-family: verdana, sans-serif;
+	font-size: 9px;
+	color: gray;
+	padding-left: 2px;
+}
+
+div.InstrumentsTimeLine {
+	padding-left: 1em;
+}
+
+div.TimeLineAfterInstruments {
+	padding-left: 1em;
+}
+
+div.GroupOfInstruments {
+	width: 80%;
+	margin: 2px;
+	margin-top: 1em;
+	padding: 2px;
+	border: 1px solid lightgray;
+}
+
+img.ImageDeleteMusician {
+	float: right;
+	top: 5px;
+	right: 5px;
+}
+
+img.ImageUpdateMusician {
+	float: right;
+	top: 5px;
+	right: 20px;
+}
+
+div.SelectMusician {
+	position: absolute;
+	text-align: center;
+	padding: 1em;
+	border: 1px solid lightgray;
+	/* background-color: PapayaWhip; */
+	background-color: NavajoWhite;
+	/* background-color: Moccasin; */
+	/* background-color: PaleGoldenRod; */
+	/* background-color: Wheat; */
+}
+
+div.SelectMusicianInstruments {
+	position: absolute;
+	text-align: center;
+	padding: 1em;
+	border: 1px solid lightgray;
+	background-color: NavajoWhite;
+}
+
+div.TimeLine {
+	text-align: left;
+	border: 1px solid gray;
+}
+
+/* ****************************** About, Login ****************************** */
+
+div.About {
+	margin: 5px;
+	padding: 3em;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+	-khtml-border-radius: 1em;
+}
+
+div.Welcome {
+	/* border: 1px solid gray; */
+
+}
+
+div.Login {
+	border: 1px solid gray;
+
+}
+
+div.Register {
+	border: 1px solid gray;
+
+}
+
+h1.name {
+	color: blue;
+}
+
+span.rec {
+	font-size: 45px;
+}
+
+span.book {
+	font-size: 150px;
+}
+
+span.slogan {
+	position: absolute;
+	left: 23em;
+	top: 7em;
+	font-size: 30px;
+	color: gray;
+	font-family: 'Roboto', sans-serif;
+}
+
+p.Introduction {
+	margin-top: 2em;
+	font-size: 14px;
+	width: 1000px;
+}
+
+/* ****************************** Politics ****************************** */
+
+div.PoliticLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.PoliticCenterColumn {
+	float: left;
+	width: 33%;
+}
+
+div.PoliticRightColumn {
+	float: left;
+	width: 33%;
+}
+
+img.PoliticPage {
+	width: 250px;
+}
+
+/* ****************************** Authors ****************************** */
+
+div.AuthorImage {
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+img.AuthorImage {
+	width: 250px;
+}
+
+img.BookImage {
+	width: 100px;
+}
+
+/* ****************************** Books ****************************** */
+
+div.BookLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.BookCenterColumn {
+	float: left;
+	width: 33%;
+}
+
+div.BookRightColumn {
+	float: left;
+	width: 33%;
+}
+
+img.BookPage {
+	width: 250px;
+}
+
+/* ****************************** Directors ****************************** */
+
+div.DirectorImage {
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+img.DirectorImage {
+	width: 250px;
+}
+
+img.MovieImage {
+	width: 100px;
+}
+
+/* ****************************** Movies ****************************** */
+
+div.MovieLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.MovieCenterColumn {
+	float: left;
+	width: 33%;
+}
+
+div.MovieRightColumn {
+	float: left;
+	width: 33%;
+}
+
+img.MoviePage {
+	width: 250px;
+}
+
+/* ****************************** Bands ****************************** */
+
+div.BandImage {
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+img.BandImage {
+	width: 250px;
+}
+
+img.AlbumImage {
+	width: 200px;
+}
+
+/* ****************************** Albums ****************************** */
+
+div.AlbumLeftColumnOutro {
+	float: left;
+	width: 33%;
+}
+
+div.AlbumCenterColumnOutro {
+	float: left;
+	width: 33%;
+}
+
+div.AlbumRightColumnOutro {
+	float: left;
+	width: 33%;
+}
+
+img.AlbumPageOutro {
+	width: 250px;
+}
+
+div.AlbumLeftColumn {
+	float: left;
+	width: 50%;
+}
+
+div.AlbumRightColumn {
+	float: left;
+	width: 50%;
+}
+
+img.AlbumPage {
+	width: 350px;
+}
+
+/* ****************************** Project ****************************** */
+
+div.ProjectLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.ProjectCenterColumn {
+	float: left;
+	width: 33%;
+}
+
+div.ProjectRightColumn {
+	float: left;
+	width: 33%;
+}
+
+img.ProjectPage {
+	width: 250px;
+}
+
+/* ****************************** Website ****************************** */
+
+div.WebsiteLeftColumn {
+	float: left;
+	width: 33%;
+}
+
+div.WebsiteCenterColumn {
+	float: left;
+	width: 33%;
+}
+
+div.WebsiteRightColumn {
+	float: left;
+	width: 33%;
+}
+
+img.WebsitePage {
+	width: 250px;
+}
+
+/* ****************************** Books, Movies, Albums ****************************** */
+
+input.InputRecommendOutro {
+	-moz-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	padding: 0.25em;
+	border: 3px solid GoldenRod;
+	background-color: yellow;
+	color: GoldenRod;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+input.InputRecommendedOutro {
+	-moz-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	padding: 0.25em;
+	border: 3px solid darkgreen;
+	background-color: lightgreen;
+	color: darkgreen;
+	font-weight: bold;
+	font-size: 20px;
+}
