@@ -1,0 +1,13 @@
+<option value="" <% if("".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>></option>
+<option value="01" <% if("01".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>January</option>
+<option value="02" <% if("02".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>February</option>
+<option value="03" <% if("03".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>March</option>
+<option value="04" <% if("04".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>April</option>
+<option value="05" <% if("05".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>May</option>
+<option value="06" <% if("06".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>June</option>
+<option value="07" <% if("07".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>July</option>
+<option value="08" <% if("08".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>August</option>
+<option value="09" <% if("09".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>September</option>
+<option value="10" <% if("10".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>October</option>
+<option value="11" <% if("11".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>November</option>
+<option value="12" <% if("12".equals(session.getAttribute("monthS"))) { out.print("selected=\"selected\""); } %>>December</option>
