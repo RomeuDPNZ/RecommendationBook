@@ -1,0 +1,22 @@
+
+	Role
+		Recommender
+		Administrator
+	Sex
+		Male
+		Female
+	Role
+		Recommender
+		Administrator
+	Sex
+		Male
+		Female
+	StateRead
+		ToRead
+		Read
+	StateWatch
+		ToWatch
+		Watched
+	StateListen
+		ToListen
+		Listened
